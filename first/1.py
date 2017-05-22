@@ -21,5 +21,10 @@ TypeError: cannot concatenate 'str' and 'int' objects
 变量定义的原则：
 1、只能包含英文字母、数字、下划线
 2、首字母必须是英文字母或者下划线
+
+脚本执行结果
+C:\Python27\python.exe C:/python/reboot/first/1.py
+hello wold
+hello , world
 '''
 
