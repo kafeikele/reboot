@@ -10,7 +10,7 @@ if  age_1 < age_2:
 
 '''
 输出结果：
-C:\Python27\python.exe C:/python/reboot/first/7.py
+C:\Python27\python.exe C:/python/reboot/first/if_2.py
 Please input the age_1: 12
 Please input the age_2: 13
 age_1:13 age_2:12

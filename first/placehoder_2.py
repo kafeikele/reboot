@@ -9,7 +9,7 @@ print num1,num2,s,s*1.0/2
 
 '''
 脚本执行结果
-C:\Python27\python.exe C:/python/reboot/first/4.py
+C:\Python27\python.exe C:/python/reboot/first/placehoder_2.py
 Please input the number you want: 45
 Please input the number you want: 54
 45 + 54 = 99

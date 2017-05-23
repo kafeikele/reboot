@@ -16,7 +16,7 @@ raw_input() 直接读取控制台的输入（任何类型的输入它都可以�
 即你输入字符串的时候必须使用引号将它括起来，否则它会引发一个 SyntaxError 。
 
 脚本执行结果
-C:\Python27\python.exe C:/python/reboot/first/2.py
+C:\Python27\python.exe C:/python/reboot/first/raw_input_and_input.py
 hello world
 What your name?
 "whh"

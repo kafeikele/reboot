@@ -19,7 +19,7 @@ else:
      print 'wdh_age < wxh_age'
 
 '''
-C:\Python27\python.exe C:/python/reboot/first/6.py
+C:\Python27\python.exe C:/python/reboot/first/if_1.py
 Please input your age: 23
 Please input your age: 25
 wdh_age < wxh_age

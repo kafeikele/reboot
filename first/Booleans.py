@@ -9,7 +9,7 @@ print a != b
 
 '''
 脚本执行结果
-C:\Python27\python.exe C:/python/reboot/first/5.py
+C:\Python27\python.exe C:/python/reboot/first/Booleans.py
 False
 True
 '''

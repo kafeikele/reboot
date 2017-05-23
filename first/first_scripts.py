@@ -23,7 +23,7 @@ TypeError: cannot concatenate 'str' and 'int' objects
 2、首字母必须是英文字母或者下划线
 
 脚本执行结果
-C:\Python27\python.exe C:/python/reboot/first/1.py
+C:\Python27\python.exe C:/python/reboot/first/first_scripts.py
 hello wold
 hello , world
 '''
