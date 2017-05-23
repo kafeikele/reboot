@@ -1,4 +1,23 @@
 #_*_coding:utf8_*_
+'''
+if语句基本语法
+if 判断条件：
+    执行语句……
+else：
+    执行语句……
+'''
+
+'''
+if高级语法
+if 判断条件1:
+    执行语句1……
+elif 判断条件2:
+    执行语句2……
+elif 判断条件3:
+    执行语句3……
+else:
+    执行语句4……
+'''
 #练习：输入两个人的年龄，判断大小
 wdh_age = raw_input('Please input your age: ')
 wxh_age = raw_input('Please input your age: ')
