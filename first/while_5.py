@@ -3,7 +3,8 @@
 total = 0
 value = 0
 while  value != 'stop':
+    total += int(value)
     value = raw_input("Please input num  you want: ")
-    if value != 'stop':
-        total += int(value)
 print total
+
+
