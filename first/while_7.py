@@ -2,7 +2,7 @@
 #场景：让用户一直输入数字，如果输入字符串的时候，则停止输入，打印所有的数字之和
 total = 0
 value = '0'
-while  value !=  value.isalpha():
+while value.isdigit():
     total += int(value)
     value = raw_input("Please input num  you want: ")
     if not value.isdigit():
