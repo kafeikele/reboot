@@ -5,7 +5,7 @@ value = 0
 i = 0
 while  value != 'stop':
     total += int(value)
-    value = raw_input("Please input num  you want: ")
+    value = raw_input("Please input num  you want: ")   #(开始输入，如果没有下面的if语句，不管输入数字还是stop,i 都会+1，)
     if value != "stop":
         i += 1.0
 if  i == 0 :
