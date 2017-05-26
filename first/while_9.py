@@ -8,9 +8,12 @@ while  True:
         value = int(value)
         total += value
     except:
-        print "Please input num"
-        if value == "stop":
-            break
+        try:
+            if value == "stop":
+                break
+        except:
+            continue
+        print "Wrong , Please input num"
 
 print total
 
