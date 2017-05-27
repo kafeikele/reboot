@@ -6,4 +6,9 @@ print 4
 
 '''
 print 后面加上一个逗号，则不换行
+C:/python/reboot/first/print_douhao.py
+1 2
+3
+4
+
 '''
