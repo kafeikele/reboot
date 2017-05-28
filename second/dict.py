@@ -1,5 +1,7 @@
 #_*_coding:utf8_*_
 字典：dict
+dir(dict)  显示所有的函数
+help(dict.fromkeys) 查看帮助
 
 In [3]: name_info = {'name': 'Jack', 'age': '27', 'job': 'Engineer'}
 In [4]: print name_info
