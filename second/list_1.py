@@ -88,3 +88,39 @@ In [46]: name_list[1::3]
 Out[46]: ['whh', 1, 4, 7, 2, 5] 每隔三个打印
 
 
+列表转换为字典
+1、现在有两个列表，list1 = ['key1','key2','key3']和list2 = ['1','2','3']，
+把他们转为这样的字典：{'key1':'1','key2':'2','key3':'3'}
+
+>>>list1 = ['key1','key2','key3']
+
+>>>list2 = ['1','2','3']
+
+>>>dict(zip(list1,list2))
+
+{'key1':'1','key2':'2','key3':'3'}
+
+2、将嵌套列表转为字典，有两种方法，
+
+>>>new_list= [['key1','value1'],['key2','value2'],['key3','value3']]
+
+>>>dict(list)
+
+{'key3': 'value3', 'key2': 'value2', 'key1': 'value1'}
+
+或者这样：
+
+>>>new_list= [['key1','value1'],['key2','value2'],['key3','value3']]
+
+>>>new_dict = {}
+
+>>> for i in new_list:
+
+...   new_dict[i[0]] = i[1]                #字典赋值，左边为key，右边为value
+
+...
+
+>>> new_dict
+
+{'key3': 'value3', 'key2': 'value2', 'key1': 'value1'}
+
