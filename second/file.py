@@ -26,9 +26,12 @@ f.write('make:a:test2 \n')
 f.write('make:a:test3 \n')
 f.close()
 
+
+#以只读的方式打开文件myfile,for遍历每一行，
+#去掉换行符，以冒号为分割，转换成list,并且打印每行。
 f = file('myfile.txt','r')    #file()打开小括号里面的这个文件，以只读的模式打开
 for line in f.readlines():     #循环这个文件的每一行
-        line = line.strip('\n').split(':')   #line.strip('\n') 去掉每行的换行符，split按照冒号分割成一个一个的列
+        line = line.strip('\n').split(':')   #line.strip('\n') 去掉每行的换行符，split按照冒号分割成一个一个的列表
         print line
 
 #strip去掉换行符，split分开，是对字符串进行修饰

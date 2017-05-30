@@ -1,6 +1,5 @@
-root:x:0:0:root:/root:/bin/bash
-daemon:x:l:ldaemon:/usr/sbin:/usr/sbin/nologin
-bin:x:2:2:bin:/bin:/usr/sbin/nologin
-make:a:test1 
-make:a:test2 
-make:a:test3 
+hello,reboot
+kk,wd,xugao,woniu,pc
+ada,xiaoxia
+reboot
+hello,reboot
