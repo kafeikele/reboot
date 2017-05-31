@@ -12,7 +12,7 @@ cxt_list = cxt.splitlines()   #列表
 print cxt_list
 
 handler = open("myfile.bakkk",'w')
+cxt_list[1] = '356'
 for line in cxt_list:
     handler.write(line + '\n')
-    cxt_list[1] = ' wd '
 handler.close()

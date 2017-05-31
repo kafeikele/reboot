@@ -13,11 +13,12 @@ cxt_list = cxt.splitlines()   #列表
 print cxt_list
 
 handler = open("myfile.bak",'w')
+cxt_list[1] = 'wd '
 for line in cxt_list:
     handler.write(line.replace('reboot','hello') + '\n')
 #字符串，str_name.replace('替换前的内容'，'替换后的内容')，当替换前的内容在str_name不存在，
 #还是输出原字符的内容
-    cxt_list[1] = ' wd '
+
 handler.close()
 
 
